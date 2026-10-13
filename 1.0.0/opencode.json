@@ -1,0 +1,22 @@
+{
+  "model": "__PROVIDER_ID__/__MODEL_ID__",
+  "provider": {
+    "__PROVIDER_ID__": {
+      "npm": "__NPM__",
+      "name": "__PROVIDER_NAME__",
+      "options": {
+        "baseURL": "__BASE_URL__",
+        "apiKey": "__API_KEY__"
+      },
+      "models": {
+        "__MODEL_ID__": {
+          "name": "__MODEL_NAME__"
+        }
+      }
+    }
+  },
+  "instructions": [
+    "/root/.config/opencode/instructions.md"
+  ]
+}
+
