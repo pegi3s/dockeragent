@@ -1,9 +1,9 @@
 # This image belongs to a larger project called Bioinformatics Docker Images Project (http://pegi3s.github.io/dockerfiles)
 ## (Please note that the original software licenses still apply)
 
-This image facilitates the usage of [dockeragent](https://github.com/pegi3s/dockeragent), an AI agent that turns a GitHub repository URL into a working, tested (if suitable data is available) pegi3s-style Bioinformatics Docker image, and that also generates the needed metadata (Dockerfile, README, metadata.json, License, etc.), ready for submission to [pegi3s BDIP](https://bdip.i3s.up.pt/).
+This image facilitates the usage of [dockeragent](https://github.com/pegi3s/dockeragent), an AI agent that turns a GitHub repository URL into a working, tested (if suitable data is available) pegi3s-style Bioinformatics Docker image, and that also generates the needed metadata (Dockerfile, README, metadata.json, License, etc.), ready for submission to [pegi3s BDIP](https://bdip.i3s.up.pt/). This Docker image has been used to generate the needed files for software applications with no special instalation requirements, for Jupyter Notebook applications (in this case the code is converted to Python scripts, for NextFlow applications where Docker is a wrapper that facilitates the running of the application, and R applications where a Rscript is generated to avoid having to enter the image and to declare each command separately.
 
-## If you use this agent to generate a Docker image for a software not available at pegi3s BDIP, please consider, after testing it, to contribute it to the pegi3s BDIP project, by sending an e-mail message to pegi3sdocker@gmail.com with the `for_submission/` folder as an attachment. If you generate Docker images for a different purpose, using this Docker image, you must declare that you have used dockeragent to generate them.
+## If you use this agent to generate a Docker image for a software not available at pegi3s BDIP, please consider, after testing it, to contribute the Dockerfile and associated metadata (including the test data) to the pegi3s BDIP project, by sending an e-mail message to pegi3sdocker@gmail.com with the `for_submission/` folder as an attachment. If you generate Docker images for a different purpose, using this Docker image, you must declare that you have used dockeragent to generate them.
 
 ## Requirements
 
